@@ -1,1 +1,1 @@
-# https://rossennis.github.io/dbrepairs2/
+# https://rossennis.github.io/dbrepairs/

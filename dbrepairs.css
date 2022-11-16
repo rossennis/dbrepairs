@@ -16,13 +16,60 @@ img{
 	background-color: rgb(255, 254, 236);
 	max-width: 100%;
 	max-height: auto;
-	paddin
+	border-bottom: solid;
+	border-width: 3px;
 	}
 
 h2{
 	text-align: center;
-	font-family: 'Abril Fatface';
+	font-family: 'poppins' , sans-serif;
 	font-weight: bold;
 	}
 	
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'poppins' , sans-serif;
+	color: black;
+	font-weight: bold;	
+	padding: 2rem;
+}
+
+.container .row .col{
+	border-width: 3px;
+	border: solid;
+	border-radius: 10px;
+	padding: 3px;
+	margin: 1rem;
+	transition: .5s;
+	background-color: rgba(0, 103, 117, 0.3);
+
+}
+
+
+.container .row .col:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+
+}
+
+.container2{
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	font-weight: lighter;
+}
+
+
+
+.container3 {
+	display: flex;
+	text-align: center;
+	font-style: italic;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+
 
